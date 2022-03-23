@@ -1,213 +1,132 @@
-
+<!--el atributo lang es usado por los buscadores para indexar (SEO)-->
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MY_NAME MY_ROLE LOCATION ANOTHER_PLACE_TO_WORK">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="./css/bulma.min.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="https://kit.fontawesome.com/40a50ceba6.js" async="async" defer="defer"></script>
-    <title>MY_NAME | MY_CONTINENT | MY_ROLE</title>
-</head>
-
-<body>
-    <div id="top"> 
-        <section class="hero">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="column is-8 is-offset-2">
-                        <figure class="image is-128x128" style="margin: 0 auto 0 auto" id="photo">
-                            <img class="is-rounded" src="ev.jpg" alt="My_Name" />
-                        </figure>
-                        <p class="title has-text-centered" style="margin-top: 1rem">💥💣🛠️🔒👽🎶 My_Name 🚀💜💎🏆🦄🥇</p>
-                        <p class="subtitle has-text-centered">This is the name of the role I want to use</p>
-                        <div class="buttons is-centered is-mobile">
-                            <a href="mailto:my_email@gmail.com" class="button button-special is-rounded box-shadow-lift"
-                                style="border: none">
-                                <span class="icon has-text-discord">
-                                    <i class="fad fa-paper-plane"></i>
-                                </span>
-                                <span>Message Me</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/my_linkedin/"
-                                class="button button-special is-rounded box-shadow-lift" style="border: none">
-                                <span class="icon has-text-discord">
-                                    <i class="fab fa-linkedin"></i>
-                                </span>
-                                <span>LinkedIn</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="columns is-centered" style="margin-top: 1rem;">
-                        <div class="column is-4">
-                            <div class="box box-shadow-lift" id="about">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content">
-                                            <p class="title is-4">About</p>
-                                            <hr class="primary" />
-                                        </div>
-                                        <!-- <div class="media-right">
-                                            <a id="about-expand">
-                                                <span class="icon has-text-info">
-                                                    <i class="fad fa-expand-alt"></i>
-                                                </span>
-                                            </a>
-                                        </div> -->
-                                    </div>
-                                    <div class="content ">
-                                        <div>Hello 👋 ,
-                                            <br><br>My name is XXXXXX and I'm currently working in XXXXX as a <b>My Role Now</b>, with a strong focus in design, patterns and architecture. I like learning all kind of new products in the market and mix them together to get the maximum of each. 
-                                            <br><br>I'm interested in all kinds of technologies but mainly with <b>Cloud-Native</b> platforms, while also <b>Containers, Automation, Big Data, Gaming, Micro-Services, etc.</b> I work mostly in the <b>AWS Cloud</b>, but I am also used to work on <b>Microsoft Azure</b>. Lately, all I am working on is in automating all infra elements as much as possible with a tools like <b>Terraform, Terragrunt, Pulumi, CloudFormation, Ansible, Puppet, GitLab, GitHub, Docker, Kubernetes, Azure Resource Templates, and so on</b>. 👾 🤖
-					                        <br><br> 
-                                            Most of my private projects are build around Python, one of my passion projects is <a href="https://flask.palletsprojects.com/">Flask</a>, check it out and see what you can get.
-                                            <br><br>If you have an interesting thing to discuss anything about technology or myself, you can always message me via the above links! ☝️
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column is-4">
-                            <div class="box box-shadow-lift" id="location">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content">
-                                            <p class="title is-4">City</p>
-                                            <hr class="primary" />
-                                        </div>
-                                    </div>
-                                    <span class="icon has-text-danger">
-                                        <i class="fad fa-map-marker-alt"></i>
-                                    </span>
-                                    <span class="">PLACE I'M TODAY, COUNTRY</span>
-                                    <hr class="primary" />
-                                    <span class="icon has-text-danger">
-                                        <i class="fad fa-home"></i>
-                                    </span>
-                                    <span class="">PLACE I'M FROM, COUNTRY</span>
-                                    <hr class="primary" />
-                                    <span class="icon has-text-danger">
-                                        <i class="fas fa-shoe-prints"></i>
-                                    </span>
-                                    <span class="">PLACE I'VE BEEN, COUNTRY</span>
-                                    <hr class="primary" />
-                                    <span class="icon has-text-danger">
-                                        <i class="fas fa-shoe-prints"></i>
-                                    </span>
-                                    <span class="">PLACE I'VE BEEN, COUNTRY</span>
-                                </div>
-                            </div>
-                            <div class="box box-shadow-lift" id="skills">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content">
-                                            <p class="title is-4">Skills and Technologies</p>
-                                            <hr class="primary" />
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="tags">
-                                            <span class="tag is-rounded">Cloud Architect&nbsp;</span>
-                                            <span class="tag is-rounded">Infra-as-Code (IaC)&nbsp;</span>
-                                            <span class="tag is-rounded">CI/CD&nbsp;</span>
-                                            <span class="tag is-rounded">Ansible&nbsp;</span>
-                                            <span class="tag is-rounded">Micro-Services&nbsp;</span>
-                                            <span class="tag is-rounded">Solution Architect&nbsp;</span>
-                                            <span class="tag is-rounded">AWS&nbsp;</span>
-                                            <span class="tag is-rounded">Scripting&nbsp;</span>
-                                            <span class="tag is-rounded">Active Directory&nbsp;</span>
-                                            <span class="tag is-rounded">FinOps&nbsp;</span>
-                                            <span class="tag is-rounded">Networking&nbsp;</span>
-                                            <span class="tag is-rounded">Terraform&nbsp;</span>
-                                            <span class="tag is-rounded">Kubernetes&nbsp;</span>
-                                            <span class="tag is-rounded">Automation&nbsp;</span>
-                                            <span class="tag is-rounded">Virtual Desktops&nbsp;</span>
-                                            <span class="tag is-rounded">Storage&nbsp;</span>
-                                            <span class="tag is-rounded">DevOps&nbsp;</span>
-                                            <span class="tag is-rounded">Databases&nbsp;</span>
-                                            <span class="tag is-rounded">SecOps&nbsp;</span>
-                                            <span class="tag is-rounded">Azure&nbsp;</span>
-                                            <span class="tag is-rounded">Cloud-Native&nbsp;</span>
-                                            <span class="tag is-rounded">Windows&nbsp;</span>
-                                            <span class="tag is-rounded">Penetration Testing&nbsp;</span>
-                                            <span class="tag is-rounded">Linux&nbsp;</span>
-                                            <span class="tag is-rounded">Ethical Hacker&nbsp;</span>
-                                            <span class="tag is-rounded">Email&nbsp;</span>
-                                            <span class="tag is-rounded">Proxy&nbsp;</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<html lang="es">
+  <head>
+    <!--entre las etiquetas de head se ponen todos los elementos no visuales-->
+    <title>My Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilosIndex.css">
+  </head>
+  <body>
+    <div id="header" class="section">
+      <img alt="" class="img-circle" src="yo.jpg"> 
+      <p>Isaac Lugo</p>
     </div>
-            <div class="tile is-ancestor">
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img class="is-rounded" src="sf.jpg">
-                        </figure>
-                        <br>
-                        <p class="title has-text-centered">Develop! 💢</p>
-                        <p class="subtitle has-text-centered">I hate coding</p>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img class="is-rounded" src="fi.jpg">
-                        </figure>
-                        <br>
-                        <p class="title has-text-centered">Test! ☘️</p>
-                        <p class="subtitle has-text-centered">Good luck with that</p>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img class="is-rounded" src="ni.jpg">
-                        </figure>
-                        <br>
-                        <p class="title has-text-centered">Build! 🏗️</p>
-                        <p class="subtitle has-text-centered">Handle with care</p>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img class="is-rounded" src="in.jpg">
-                        </figure>
-                        <br>
-                        <p class="title has-text-centered">Deploy! 🐲</p>
-                        <p class="subtitle has-text-centered">Change is good</p>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img class="is-rounded" src="ru.jpg">
-                        </figure>
-                        <br>
-                        <p class="title has-text-centered">Autom8! 💥</p>
-                        <p class="subtitle has-text-centered">Here comes magic</p>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img class="is-rounded" src="vn.jpg">
-                        </figure>
-                        <br>
-                        <p class="title has-text-centered">Repeat! 💤</p>
-                        <p class="subtitle has-text-centered">I love coding</p>
-                    </article>
-                </div>
-</body>
-
+    <!-- About Me section start -->
+    <div class="section">
+    <!--las etiquetas de h1-h6 son tabien usadas por los buscadores (SEO)-->
+      <h1><span>About Me</span></h1>
+      <p>
+	Hi mi name is <strong>Isaac</strong>. Coding is changing my mife. It's not about apps. Learning to code gave me
+	<i>problem solving skills</i> and a way to comunicate with other in a technical level. I'm learning how to develop
+	websites an get a better job. That's that i want to say we'll se you later my friends!.
+      </p>
+      <p class="quote">Declare variables, not war</p>
+    </div>
+    <!-- About Me section end -->
+    <div class="section">
+      <h1><span>My Skills</span></h1>
+      <ul>
+	<li>java</li>
+	<progress max="100" value="60">60%</progress>
+	<li>python</li>
+	<progress max="100" value="20">20%</progress>
+	<li>html</li>
+	<progress max="100" value="7">7%</progress>
+	<li>C++</li>
+	<progress max="100" value="3">3%</progress>
+      </ul>
+    </div>
+    <div class="section">
+      <h1><span>My Coding Schecule</span></h1>
+      <table>
+	<tr>
+	  <th>Day</th>
+	  <th>Mon</th>
+	  <th>Tue</th>
+	  <th>Wed</th>
+	  <th>Thu</th>
+	  <th>Fri</th>
+	</tr>
+	<tr>
+	  <td>8-8:30</td>
+	  <td class="selected">Learn</td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>9-9:30</td>
+	  <td></td>
+	  <td class="selected">Drink coffe</td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>10-10:30</td>
+	  <td></td>
+	  <td></td>
+	  <td class="selected">Study a lot</td>
+	  <td></td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>11-11:30</td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td class="selected">Drink coffe</td>
+	  <td></td>
+	</tr>
+	<tr>
+	  <td>22-23:00</td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td class="selected">Have Dinner</td>
+	</tr>
+      </table>
+    </div>
+    <div class="section">
+      <h1><span>Media</span></h1>
+      <iframe width="300" height="150" src="https://www.youtube.com/embed/J82h1zMEv4A" allowfullscreen frameborder="0"></iframe>
+    </div>
+    <div class="section">
+      <h1><span>Contact Me</span></h1>
+      <svg class="face" height="100" width="100">
+       <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+	    <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+	    <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+	    <circle cx="30" cy="30" r="5" fill="#000000"/>
+	    <circle cx="70" cy="30" r="5" fill="#000000"/>
+	    <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+      </svg>
+      <form>
+	<input type="text" name="name" placeholder="Name" /><br>
+	<input type="text" name"mail" placeholder="Mail" /><br>
+	<textarea name="message" placeholder="message" rows="100"></textarea>
+	<input type="submit" value="send" class="submit" />
+      </form>
+    </div>
+    <div class="section" id="contacts">
+      <h1><span>Follow Me</span></h1>
+      <div>
+	<a href="https://www.sololearn.com/Profile/7352618" target="_blank">
+	  <img src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+	</a>
+	<a href="https://twitter.com/LugIsaac" target="_blank">
+	  <img src="https://www.sololearn.com/Uploads/icons/facebook.png" alt="facebook" />
+	</a>
+	<a href="https://www.facebook.com/51.1335.35t0.3R35.COOL?ref=bookmarks" target="_blank">
+	  <img src="https://www.sololearn.com/Uploads/icons/twitter.png" alt="twitter" />
+	</a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2020 My Blog. All Rights Reserverd.
+    </div>
+  </body>
 </html>
